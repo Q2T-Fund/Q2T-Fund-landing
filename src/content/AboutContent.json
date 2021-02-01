@@ -1,0 +1,16 @@
+{
+  "title": "Yet another section for Alex",
+  "text": "Other stuff.png",
+  "section": [
+    {
+      "title": "Why More?",
+      "content": "Yay",
+      "icon": "dragonfly.svg"
+    },
+    {
+      "title": "Maybe more stuff?",
+      "content": "Lorem Ipsum, also other stuff and components and columns. ",
+      "icon": "lobster.svg"
+    }
+  ]
+}
