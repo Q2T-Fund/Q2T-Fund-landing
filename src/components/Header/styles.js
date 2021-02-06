@@ -19,6 +19,7 @@ export const Container = styled.div`
   padding-left: 25px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: -10em;
 `;
 
 export const NavLink = styled.div`

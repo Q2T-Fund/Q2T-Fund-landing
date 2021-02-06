@@ -49,6 +49,10 @@ const Footer = ({ t }) => {
                 <S.Large left="true" to="/">
                   {"Blog"}
                 </S.Large>
+                <S.Title>
+                  {"Illustration Credits"}
+                </S.Title>
+                <a href="https://iconscout.com/illustration-pack/finance-174" target="_blank">Finance Illustration Pack</a> by <a href="https://iconscout.com/contributors/iconscout" target="_blank">Iconscout Freebies</a>
               </Col>
 
             </Row>
