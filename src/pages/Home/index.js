@@ -7,6 +7,7 @@ import Donors from "../../components/Donors"
 import Projects from "../../components/Projects"
 import Built from "../../components/Built"
 import Detail from "../../components/Detail"
+import Values from "../../components/Values"
 
 const ContactFrom = lazy(() => import("../../components/ContactForm"));
 const Container = lazy(() => import("../../common/Container"));
@@ -39,6 +40,9 @@ const Home = () => {
       <Detail
         icon="about.png"
         id="in-detail"
+      />
+      <Values
+      id="values"
       />
       <ContactFrom
         title={ContactContent.title}
