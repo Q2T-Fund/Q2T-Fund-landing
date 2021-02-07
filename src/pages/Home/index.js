@@ -1,15 +1,14 @@
 import { lazy } from "react";
 
-import IntroContent from "../../content/IntroContent.json";
-import MiddleBlockContent from "../../content/MiddleBlockContent.json";
-import AboutContent from "../../content/AboutContent.json";
-import MissionContent from "../../content/MissionContent.json";
-import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
 
+import Intro from "../../components/Intro"
+import Donors from "../../components/Donors"
+import Projects from "../../components/Projects"
+import Built from "../../components/Built"
+import Detail from "../../components/Detail"
+
 const ContactFrom = lazy(() => import("../../components/ContactForm"));
-const ContentBlock = lazy(() => import("../../components/ContentBlock"));
-const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 
@@ -17,42 +16,29 @@ const Home = () => {
   return (
     <Container>
       <ScrollToTop />
-      <ContentBlock
+      <Intro
         type="right"
         first="true"
-        title={IntroContent.title}
-        content={IntroContent.text}
-        button={IntroContent.button}
-        icon="beaver.svg"
+        icon="intro.png"
         id="intro"
       />
-      <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
+      <Donors
+        icon="donors.png"
+        id="donors"
       />
-      <ContentBlock
-        type="left"
-        title={AboutContent.title}
-        content={AboutContent.text}
-        section={AboutContent.section}
-        icon="rodent.svg"
-        id="about"
+      <Projects
+        icon="projects.png"
+        id="projects"
       />
-      <ContentBlock
+      <Built
         type="right"
-        title={MissionContent.title}
-        content={MissionContent.text}
         icon="bird.svg"
-        id="mission"
+        id="built"
       />
 
-      <ContentBlock
-        type="left"
-        title={ProductContent.title}
-        content={ProductContent.text}
-        icon="financial-year.svg"
-        id="product"
+      <Detail
+        icon="about.png"
+        id="in-detail"
       />
       <ContactFrom
         title={ContactContent.title}
