@@ -57,8 +57,8 @@ const Built = ({ title, content, button}) => {
 
             <SvgIcon
             src="chainlink.png"
-            width="75px"
-            height="75x"
+            width="100px"
+            height="100px"
             style={{ 'margin': '15px' }}
             />
 
