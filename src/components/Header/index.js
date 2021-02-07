@@ -78,7 +78,7 @@ const Header = ({ t }) => {
           style={{ width: "180px" }}
         >
           <S.Span>
-            <Button>{<a href="https://app.q2t.fi" style={{color: 'white' }} >Launch App</a>}</Button>
+            <Button>{<a href="https://app.q2t.fund" style={{color: 'white' }} >Launch App</a>}</Button>
           </S.Span>
         </S.CustomNavLinkSmall>
       </Fragment>

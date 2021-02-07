@@ -12,6 +12,7 @@ import styled from 'styled-components';
 export const RightBlockContainer = styled.section`
   position: relative;
   padding: 10rem 0 8rem;
+  margin-bottom: 10em;
 
   @media only screen and (max-width: 768px) {
     padding: 8rem 0 6rem;
@@ -75,7 +76,7 @@ const Intro = ({ title, content, button, icon, id }) => {
                   key="launch2"
                   width="true"
                   >
-                  <a href="app.q2t.fi" style={{ 'color': '#fff' }}>Launch App</a>
+                  <a href="app.q2t.fund" style={{ 'color': '#fff' }}>Launch App</a>
                   </Button>
 
                   <Button

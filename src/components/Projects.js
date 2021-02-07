@@ -36,7 +36,7 @@ export const ButtonWrapper = styled.div`
 `;
 
 
-const RightBlock = ({ title, content, button, icon, id }) => {
+const Projects = ({ title, content, button, icon, id }) => {
   const scrollTo = (id) => {
     const element = document.getElementById(id);
     element.scrollIntoView({
@@ -77,7 +77,7 @@ const RightBlock = ({ title, content, button, icon, id }) => {
               className="about-block-image"
               width="500px"
               height="500px"
-              style={{ 'margin-left': '75px' }}
+              style={{ 'margin-left': '100px' }}
             />
           </Slide>
         </Col>
@@ -86,4 +86,4 @@ const RightBlock = ({ title, content, button, icon, id }) => {
   );
 };
 
-export default withTranslation()(RightBlock);
+export default Projects;
