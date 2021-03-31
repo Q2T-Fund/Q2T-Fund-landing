@@ -37,22 +37,24 @@ const Footer = ({ t }) => {
                     `Do you have any question regarding the project? Feel free to reach out.`
                   }
                 </S.Para>
-                <a href="mailto:markus.vasemagi@gmail.com">
+                <a href="mailto:team@distributed.town">
                   <S.Chat>{`Let's Chat`}</S.Chat>
                 </a>
               </Col>
               <Col lg={8} md={8} sm={12} xs={24}>
-                <S.Title>{"Company"}</S.Title>
+                <S.Title>{"Socials"}</S.Title>
                 <S.Large left="true" to="/">
-                  {"About"}
+                  {"Twitter"}
                 </S.Large>
+                <a href="https://twitter.com/Q2T_fund" target="_blank">Follow us</a>
                 <S.Large left="true" to="/">
-                  {"Blog"}
+                  {"Discord"}
                 </S.Large>
+                <a href="https://discord.gg/WR7PbswvTr" target="_blank">Join us!</a>
                 <S.Title>
-                  {"Illustration Credits"}
+                  {"Credits"}
                 </S.Title>
-                <a href="https://iconscout.com/illustration-pack/finance-174" target="_blank">Finance Illustration Pack</a> by <a href="https://iconscout.com/contributors/iconscout" target="_blank">Iconscout Freebies</a>
+                <a href="https://distributed.town" target="_blank">© DistributedTown 2021</a>
               </Col>
 
             </Row>
