@@ -43,8 +43,8 @@ const Built = ({ title, content, button}) => {
         <Fade bottom>
           <ContentWrapper>
             <Col lg={24} md={24} sm={24} xs={24}>
-              <h6>Built @ AAVE MarketMake Hack</h6>
-              <Content>From Hackers, to Hackers – we leverage on AAVE Native Credit Delegation to release the first fully open-source, public available, sybil-resistant model of Quadratic Funding for Public Goods!</Content>
+              <h6>Built @ MarketMake & GR9 Hacks</h6>
+              <Content>From Hackers, to Hackers – we leverage on Textile Threads, Chainlink Oracles, and AAVE Native Credit Delegation to release the first fully open-source, public available, sybil-resistant model of Quadratic Funding for Public Goods!</Content>
 
             </Col>
             
@@ -66,6 +66,13 @@ const Built = ({ title, content, button}) => {
             src="dito.png"
             width="75px"
             height="75x"
+            style={{ 'margin': '15px' }}
+            />
+            
+            <SvgIcon
+            src="Textile_Logo.jpeg"
+            width="100px"
+            height="100px"
             style={{ 'margin': '15px' }}
             />
           </ContentWrapper>
