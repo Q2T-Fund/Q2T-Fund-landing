@@ -68,7 +68,14 @@ const Detail = ({ icon, title, content, section, id }) => {
           <Slide right>
             <ContentWrapper>
               <h6>In Detail</h6>
-              <Content>Q2T brings non-repayable loans in the DeFi space, by combining <a href="https://aave.com" style={{ 'color': 'black', 'fontWeight': 'bold', 'textDecoration': 'underline' }}>AAVE</a> liquidity protocol, <a href="https://chain.link" style={{ 'color': 'black', 'fontWeight': 'bold', 'textDecoration': 'underline' }}>Chainlink</a> oracle(s) & a Mutual Credit system (<a href="https://distributed.town" style={{ 'color': 'black', 'fontWeight': 'bold', 'textDecoration': 'underline' }}>DistributedTown</a>) to offer a solution to the issues of limited attention (Popularity games/Matthew Effects), and sybil-attacks (fake identities/matching pool manipulations) associate with funding projects in the area of Public Goods. As well as proposing a new, open-source standard for a <b>2-step Quadratic Distribution</b> to offer projects a continuous, permissionless way to raise funds. Based exclusively on their provable activity and the milestones achieved.</Content>
+              <Content>Q2T brings non-repayable loans to the DeFi space, by leveraging on <a href="https://polygon.technology" style={{ 'color': 'black', 'fontWeight': 'bold', 'textDecoration': 'underline' }}>Polygon</a> L2 capabilities </br>
+              <a href="https://siasky.net" style={{ 'color': 'black', 'fontWeight': 'bold', 'textDecoration': 'underline' }}>Skynet</a> decentralized, persistent and automated flow </br>
+              <a href="https://aave.com" style={{ 'color': 'black', 'fontWeight': 'bold', 'textDecoration': 'underline' }}>AAVE</a> liquidity protocol, </br> 
+              <a href="https://chain.link" style={{ 'color': 'black', 'fontWeight': 'bold', 'textDecoration': 'underline' }}>Chainlink</a> oracle(s) </br> 
+              & a Mutual Credit system (<a href="https://distributed.town" style={{ 'color': 'black', 'fontWeight': 'bold', 'textDecoration': 'underline' }}>DistributedTown</a>) </br> 
+              to offer a solution to the issues of limited attention (Popularity games/Matthew Effects), and sybil-attacks (fake identities/matching pool manipulations) associate with funding projects in the area of Public Goods. </br> 
+              As well as proposing a new, open-source standard for a <b>2-step Quadratic Distribution</b> </br> 
+              to offer projects a continuous, permissionless way to raise funds. Based exclusively on their provable activity and the milestones achieved.</Content>
 
             </ContentWrapper>
           </Slide>
