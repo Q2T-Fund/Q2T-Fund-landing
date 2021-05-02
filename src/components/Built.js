@@ -43,7 +43,7 @@ const Built = ({ title, content, button}) => {
         <Fade bottom>
           <ContentWrapper>
             <Col lg={24} md={24} sm={24} xs={24}>
-              <h6>Built @ ETHGlobal: MarketMake & Encode: Hack the System</h6>
+              <h6>Built @ <br /> <b> ETHGlobal: </b> <i> MarketMake </i> <br /> & <b> Encode:</b> <i> Hack the System </i> </h6>
               <Content>From Hackers, to Hackers – we leverage on Polygon L2, Skynet CI/CD Flow, Textile Threads, Chainlink Oracles, and AAVE Native Credit Delegation to release the first fully open-source, public available, sybil-resistant model of Quadratic Funding for Public Goods!</Content>
 
             </Col>
