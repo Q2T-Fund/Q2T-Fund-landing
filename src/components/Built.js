@@ -48,14 +48,14 @@ const Built = ({ title, content, button}) => {
 
             </Col>
             <SvgIcon
-            src="Polygon logo.png"
+            src="Polygon.png"
             width="75px"
             height="75x"
             style={{ 'margin': '15px' }}
             />
     
             <SvgIcon
-            src="Skynet logo.png"
+            src="Skynet.png"
             width="75px"
             height="75x"
             style={{ 'margin': '15px' }}
