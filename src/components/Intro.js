@@ -76,7 +76,7 @@ const Intro = ({ title, content, button, icon, id }) => {
                   key="launch2"
                   width="true"
                   >
-                  <a href="https://app.q2t.fund" style={{ 'color': '#fff' }}>Launch App</a>
+                  <a href="https://1005agh6pbko9okg69o4n47ohkmu2b3au5acf9g9hd9248v6lpja4r8.siasky.net/" style={{ 'color': '#fff' }}>Launch App</a>
                   </Button>
 
                   <Button
