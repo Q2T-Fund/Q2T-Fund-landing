@@ -43,14 +43,12 @@ const Footer = ({ t }) => {
               </Col>
               <Col lg={8} md={8} sm={12} xs={24}>
                 <S.Title>{"Socials"}</S.Title>
-                <S.Large left="true" to="/">
-                  {"Twitter"}
+                <S.Large left="true" to="https://twitter.com/Q2T_fund">
+                  {"Follow us on Twitter!"}
                 </S.Large>
-                <a href="https://twitter.com/Q2T_fund" target="_blank">Follow us</a>
-                <S.Large left="true" to="/">
-                  {"Discord"}
+                <S.Large left="true" to="https://discord.gg/WR7PbswvTr">
+                  {"Join us on Discord!"}
                 </S.Large>
-                <a href="https://discord.gg/WR7PbswvTr" target="_blank">Join us!</a>
                 <S.Title>
                   {"Credits"}
                 </S.Title>
@@ -84,11 +82,11 @@ const Footer = ({ t }) => {
                   src="github.svg"
                 />
                 <SocialLink
-                  href="https://twitter.com/marakuas"
+                  href="https://twitter.com/Q2T_fund"
                   src="twitter.svg"
                 />
                 <SocialLink
-                  href="https://medium.com/@ustin_48503/"
+                  href="https://medium.com/@distributed-town"
                   src="medium.svg"
                 />
               </S.FooterContainer>
