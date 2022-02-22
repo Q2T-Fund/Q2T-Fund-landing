@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+
+  q2t-landing:
+    container_name: q2t-landing
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '2001:80'
