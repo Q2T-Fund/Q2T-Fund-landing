@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { notification } from "antd";
-import axios from "axios";
 
 const useForm = (validate) => {
   const [values, setValues] = useState({});
@@ -27,13 +26,13 @@ const useForm = (validate) => {
 
     const url = "";
     if (Object.keys(values).length === 3) {
-      axios
-        .post(url, {
-          ...values,
-        })
-        .then(() => {
-          setShouldSubmit(true);
-        });
+      // axios
+      //   .post(url, {
+      //     ...values,
+      //   })
+      //   .then(() => {
+      //     setShouldSubmit(true);
+      //   });
     }
   };
 
